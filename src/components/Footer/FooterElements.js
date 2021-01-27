@@ -5,6 +5,7 @@ export const FooterContainer = styled.footer`
     background: #1e5436;
     margin: 0 0 0 -10px; 
     padding: 20px 0 0 0;
+    margin-right: -10px;
 `;
 
 export const FooterWrapper = styled.div`
