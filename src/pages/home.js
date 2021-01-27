@@ -8,7 +8,7 @@ const Home = () => {
             <Sidebar />
             <Navbar />
         </>
-    )
+    );
 }
 
 export default Home;

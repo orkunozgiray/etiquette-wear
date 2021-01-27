@@ -19,17 +19,17 @@ const Sidebar = () => {
                 </Icon>
                 <SidebarWrapper>
                     <SidebarMenu>
-                        <SidebarLinks to='WOMEN'></SidebarLinks>
-                        <SidebarLinks to='MEN'></SidebarLinks>
-                        <SidebarLinks to='CREATE MY ETIQUETTE'></SidebarLinks>
+                        <SidebarLinks to='/'>WOMEN</SidebarLinks>
+                        <SidebarLinks to='/'>MEN</SidebarLinks>
+                        <SidebarLinks to='/'>CREATE MY ETIQUETTE</SidebarLinks>
                     </SidebarMenu>
                     <SideBtnWrap>
-                        <SidebarRoute to='/signin'>Sign In</SidebarRoute>
+                        <SidebarRoute to='/'>Sign In</SidebarRoute>
                     </SideBtnWrap>
                 </SidebarWrapper>
             </SidebarContainer>
         </>
     );
-};
+}
 
 export default Sidebar;

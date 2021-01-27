@@ -17,7 +17,7 @@ const Navbar = () => {
         <>
             <Nav>
                 <NavContainer>
-                    <NavLogo to='/'></NavLogo>
+                    <NavLogo to='/'>ETIQUETTE</NavLogo>
                     <MobileIcon>
                         <FaBars />
                     </MobileIcon>
@@ -62,6 +62,6 @@ const Navbar = () => {
             </Nav>  
         </>
     );
-};
+}
 
 export default Navbar;
