@@ -5,7 +5,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path='/' component={Home} exact />
+        <Route path='/etiquette-wear' component={Home} exact />
       </Switch>
     </Router>
   );
