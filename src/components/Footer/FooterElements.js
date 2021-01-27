@@ -2,10 +2,9 @@ import styled from 'styled-components';
 import {Link} from 'react-router-dom';
 
 export const FooterContainer = styled.footer`
-    background: #1e5436;
-    margin: 0 0 0 -10px; 
-    padding: 20px 0 0 0;
-    margin-right: -10px;
+    background: #414D60;
+    margin: 0 -10px -10px -10px; 
+    padding: 0 0 0 0;
 `;
 
 export const FooterWrapper = styled.div`
