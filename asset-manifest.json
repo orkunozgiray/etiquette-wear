@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/etiquette-wear/static/js/main.8ea9bc39.chunk.js",
-    "main.js.map": "/etiquette-wear/static/js/main.8ea9bc39.chunk.js.map",
+    "main.js": "/etiquette-wear/static/js/main.787da2d8.chunk.js",
+    "main.js.map": "/etiquette-wear/static/js/main.787da2d8.chunk.js.map",
     "runtime-main.js": "/etiquette-wear/static/js/runtime-main.c7f19ffc.js",
     "runtime-main.js.map": "/etiquette-wear/static/js/runtime-main.c7f19ffc.js.map",
     "static/js/2.13eea4d3.chunk.js": "/etiquette-wear/static/js/2.13eea4d3.chunk.js",
@@ -14,6 +14,6 @@
   "entrypoints": [
     "static/js/runtime-main.c7f19ffc.js",
     "static/js/2.13eea4d3.chunk.js",
-    "static/js/main.8ea9bc39.chunk.js"
+    "static/js/main.787da2d8.chunk.js"
   ]
 }
