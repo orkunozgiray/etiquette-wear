@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/etiquette-wear/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/etiquette-wear/static/js/main.fd0bc9f5.chunk.js",
-    "main.js.map": "/etiquette-wear/static/js/main.fd0bc9f5.chunk.js.map",
+    "main.js": "/etiquette-wear/static/js/main.bf0e869f.chunk.js",
+    "main.js.map": "/etiquette-wear/static/js/main.bf0e869f.chunk.js.map",
     "runtime-main.js": "/etiquette-wear/static/js/runtime-main.3a91707d.js",
     "runtime-main.js.map": "/etiquette-wear/static/js/runtime-main.3a91707d.js.map",
     "static/js/2.6854a339.chunk.js": "/etiquette-wear/static/js/2.6854a339.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.3a91707d.js",
     "static/js/2.6854a339.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.fd0bc9f5.chunk.js"
+    "static/js/main.bf0e869f.chunk.js"
   ]
 }
