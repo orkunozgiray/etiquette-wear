@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/etiquette-wear/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/etiquette-wear/static/js/main.9252000f.chunk.js",
-    "main.js.map": "/etiquette-wear/static/js/main.9252000f.chunk.js.map",
-    "runtime-main.js": "/etiquette-wear/static/js/runtime-main.5b6cb81f.js",
-    "runtime-main.js.map": "/etiquette-wear/static/js/runtime-main.5b6cb81f.js.map",
-    "static/js/2.6827e57d.chunk.js": "/etiquette-wear/static/js/2.6827e57d.chunk.js",
-    "static/js/2.6827e57d.chunk.js.map": "/etiquette-wear/static/js/2.6827e57d.chunk.js.map",
-    "static/js/3.3be69567.chunk.js": "/etiquette-wear/static/js/3.3be69567.chunk.js",
-    "static/js/3.3be69567.chunk.js.map": "/etiquette-wear/static/js/3.3be69567.chunk.js.map",
+    "main.js": "/etiquette-wear/static/js/main.fd0bc9f5.chunk.js",
+    "main.js.map": "/etiquette-wear/static/js/main.fd0bc9f5.chunk.js.map",
+    "runtime-main.js": "/etiquette-wear/static/js/runtime-main.3a91707d.js",
+    "runtime-main.js.map": "/etiquette-wear/static/js/runtime-main.3a91707d.js.map",
+    "static/js/2.6854a339.chunk.js": "/etiquette-wear/static/js/2.6854a339.chunk.js",
+    "static/js/2.6854a339.chunk.js.map": "/etiquette-wear/static/js/2.6854a339.chunk.js.map",
+    "static/js/3.7f377500.chunk.js": "/etiquette-wear/static/js/3.7f377500.chunk.js",
+    "static/js/3.7f377500.chunk.js.map": "/etiquette-wear/static/js/3.7f377500.chunk.js.map",
     "index.html": "/etiquette-wear/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/etiquette-wear/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.6827e57d.chunk.js.LICENSE.txt": "/etiquette-wear/static/js/2.6827e57d.chunk.js.LICENSE.txt"
+    "static/js/2.6854a339.chunk.js.LICENSE.txt": "/etiquette-wear/static/js/2.6854a339.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5b6cb81f.js",
-    "static/js/2.6827e57d.chunk.js",
+    "static/js/runtime-main.3a91707d.js",
+    "static/js/2.6854a339.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.9252000f.chunk.js"
+    "static/js/main.fd0bc9f5.chunk.js"
   ]
 }
