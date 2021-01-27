@@ -5,7 +5,7 @@ export const Nav = styled.nav`
     
 `;
 
-export const NavbarContainer = styled.div`
+export const NavContainer = styled.div`
     
 `;
 
