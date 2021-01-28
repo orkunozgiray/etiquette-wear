@@ -8,7 +8,7 @@ export const InfoContainer = styled.div`
 
     @media screen and (max-width: 768px) {
         padding: 100px 50px 0 0;
-        margin: 10px -50px 10px -10px;
+        margin: 10px -100px 10px -10px;
     }
 `;
 
@@ -62,7 +62,7 @@ export const InfoH1 = styled.h1`
 
     @media screen and (max-width: 480px) {
         font-size: 32px;
-        margin: 20px 30px 10px 10px;
+        margin: -70px -40px 10px 10px;
     }
 `;
 
@@ -75,7 +75,7 @@ export const InfoP = styled.p`
     margin: -20px 100px 10px auto;
 
     @media screen and (max-width: 480px) {
-        margin: 20px 30px 10px 80px;
+        margin: 70px 30px 10px 80px;
     }
 `;
 
@@ -96,8 +96,8 @@ export const Img = styled.img`
     width: 40%;
 
     @media screen and (max-width: 768px) {
-        width: 80%;
-        margin: -10px 0 -50px 65px;
+        width: 60%;
+        margin: -130px 0 -50px -50px;
     }
 `;
 
@@ -126,6 +126,6 @@ export const InfoButton = styled(Link)`
     }
 
     @media screen and (max-width: 480px) {
-        margin-right: 50px;
+        margin: 0 -30px 30px 130px;
     }
 `;

@@ -20,7 +20,7 @@ export const Nav = styled.nav`
         transition: 0.8s all ease;
         padding-top: -20px;
         padding-right: 50px;
-        margin-right: -50px;
+        margin-right: -100px;
     }
 `;
 
