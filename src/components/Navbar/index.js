@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FaBars } from 'react-icons/fa';
+import { FaBars, FaSearch } from 'react-icons/fa';
 import { animateScroll as scroll } from 'react-scroll';
 import {
     Nav, 
@@ -10,7 +10,8 @@ import {
     NavItem,
     NavLinks,
     NavBtn,
-    NavBtnLink 
+    NavBtnLink,
+    NavSearch 
 } from './NavbarElements';
 
 const Navbar = ({ toggle }) => {
@@ -37,14 +38,14 @@ const Navbar = ({ toggle }) => {
         <>
             <Nav scrollNav={scrollNav}>
                 <NavContainer>
-                    <NavLogo to='/' onClick={toggleHome}>ETIQUETTE</NavLogo>
+                    <NavLogo to='/etiquette-wear' onClick={toggleHome}>ETIQUETTE</NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
                             <NavLinks
-                                to='/'
+                                to='/men'
                                 smooth={true} 
                                 duration={500} 
                                 spy={true} 
@@ -56,7 +57,7 @@ const Navbar = ({ toggle }) => {
                         </NavItem>
                         <NavItem>
                             <NavLinks
-                                to='/'
+                                to='/women'
                                 smooth={true} 
                                 duration={500} 
                                 spy={true} 
@@ -68,26 +69,26 @@ const Navbar = ({ toggle }) => {
                         </NavItem>
                         <NavItem>
                             <NavLinks
-                                to='/'
+                                to='/men'
                                 smooth={true} 
                                 duration={500} 
                                 spy={true} 
                                 exact='true' 
                                 offset={-80}
                             >
-                                CREATE MY ETIQUETTE
+                                SALE
                             </NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks
-                                to='/'
+                                to='magazine'
                                 smooth={true} 
                                 duration={500} 
                                 spy={true} 
                                 exact='true' 
                                 offset={-80}
                             >
-                                BLOG
+                                MAGAZINE
                             </NavLinks>
                         </NavItem>
                     </NavMenu>
@@ -102,6 +103,19 @@ const Navbar = ({ toggle }) => {
                         >
                             Sign In
                         </NavBtnLink>
+                        <NavBtnLink
+                            to='/'
+                            smooth={true} 
+                            duration={500} 
+                            spy={true} 
+                            exact='true' 
+                            offset={-80}
+                        >
+                            My Bag
+                        </NavBtnLink>
+                        <NavSearch>
+                            <FaSearch />
+                        </NavSearch>
                     </NavBtn>
                 </NavContainer>
             </Nav>  

@@ -45,7 +45,7 @@ const Info = ({
                                 <InfoP darkText={darkText}>{description}</InfoP>
                                 <ButtonWrap>
                                     <InfoButton 
-                                        to='collectionpage'
+                                        to='blog'
                                         smooth={true}
                                         duration={500}
                                         spy={true}
