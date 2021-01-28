@@ -18,6 +18,9 @@ export const Nav = styled.nav`
 
     @media screen and (max-width: 960px) {
         transition: 0.8s all ease;
+        padding-top: -20px;
+        padding-right: 50px;
+        margin-right: -50px;
     }
 `;
 

@@ -7,7 +7,8 @@ export const InfoContainer = styled.div`
     margin: 10px -10px 10px -10px;
 
     @media screen and (max-width: 768px) {
-        padding: 100px 0;
+        padding: 100px 50px 0 0;
+        margin: 10px -50px 10px -10px;
     }
 `;
 
@@ -61,6 +62,7 @@ export const InfoH1 = styled.h1`
 
     @media screen and (max-width: 480px) {
         font-size: 32px;
+        margin: 20px 30px 10px 10px;
     }
 `;
 
@@ -71,6 +73,10 @@ export const InfoP = styled.p`
     line-height: 24px;
     color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
     margin: 0 0 10px auto;
+
+    @media screen and (max-width: 480px) {
+        margin: 20px 30px 10px 80px;
+    }
 `;
 
 export const ButtonWrap = styled.div`
@@ -89,11 +95,8 @@ export const Img = styled.img`
     padding-right: 0;
 
     @media screen and (max-width: 768px) {
-        width: 60%;
-    }
-
-    @media screen and (max-width: 480px) {
-        width: 30%;
+        width: 80%;
+        margin: -100px 0 -50px 65px;
     }
 `;
 
@@ -118,5 +121,9 @@ export const InfoButton = styled(Link)`
         transition: all 0.2s ease-in-out;
         background: ${({primary}) => (primary ? '#d6c3c7' : '#afd1db')};
         font-size: 20px;
+    }
+
+    @media screen and (max-width: 480px) {
+        margin-right: 50px;
     }
 `;

@@ -25,6 +25,11 @@ export const HeroContainer = styled.div`
         background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 100%), linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100%); //background video gets darker
         z-index: 2;
     }
+
+    @media screen and (max-width: 768px) {
+        padding: 0 50px 0 0;
+        margin: 0 -50px 10px -10px;
+    }
 `;
 
 export const HeroBackground = styled.div`
@@ -62,11 +67,8 @@ export const HeroH1 = styled.h1`
     text-align: center;
 
     @media screen and (max-width: 768px) {
-        font-size: 40px;
-    }
-
-    @media screen and (max-width: 480px) {
         font-size: 32px;
+        margin: 0 -50px 0 0;
     }
 `;
 
@@ -78,11 +80,8 @@ export const HeroP = styled.p`
     max-width: 600px;
 
     @media screen and (max-width: 768px) {
-        font-size: 24px;
-    }
-
-    @media screen and (max-width: 480px) {
         font-size: 18px;
+        margin: 40px -50px 0 0;
     }
 `;
 
@@ -91,6 +90,10 @@ export const HeroButtonWrapper = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
+
+    @media screen and (max-width: 480px) {
+        margin-left: 55px;
+    }
     
 `;
 
