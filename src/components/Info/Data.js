@@ -1,5 +1,5 @@
 export const InfoOne = {
-    id: 'about',
+    id: 'women',
     lightBg: true,
     lightText: false,
     lighTextDesc: false,
@@ -15,7 +15,7 @@ export const InfoOne = {
 };
 
 export const InfoTwo = {
-    id: 'collection',
+    id: 'men',
     lightBg: false,
     lightText: false,
     lighTextDesc: false,

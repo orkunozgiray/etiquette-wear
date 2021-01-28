@@ -45,9 +45,9 @@ const Navbar = ({ toggle }) => {
                     <NavMenu>
                         <NavItem>
                             <NavLinks
-                                to='/men'
+                                to='women'
                                 smooth={true} 
-                                duration={500} 
+                                duration={1200} 
                                 spy={true} 
                                 exact='true' 
                                 offset={-80}
@@ -57,9 +57,9 @@ const Navbar = ({ toggle }) => {
                         </NavItem>
                         <NavItem>
                             <NavLinks
-                                to='/women'
+                                to='men'
                                 smooth={true} 
-                                duration={500} 
+                                duration={1200} 
                                 spy={true} 
                                 exact='true' 
                                 offset={-80}
@@ -69,9 +69,9 @@ const Navbar = ({ toggle }) => {
                         </NavItem>
                         <NavItem>
                             <NavLinks
-                                to='/men'
+                                to=''
                                 smooth={true} 
-                                duration={500} 
+                                duration={1200} 
                                 spy={true} 
                                 exact='true' 
                                 offset={-80}
@@ -83,7 +83,7 @@ const Navbar = ({ toggle }) => {
                             <NavLinks
                                 to='magazine'
                                 smooth={true} 
-                                duration={500} 
+                                duration={1200} 
                                 spy={true} 
                                 exact='true' 
                                 offset={-80}
@@ -96,7 +96,7 @@ const Navbar = ({ toggle }) => {
                         <NavBtnLink
                             to='/'
                             smooth={true} 
-                            duration={500} 
+                            duration={1200} 
                             spy={true} 
                             exact='true' 
                             offset={-80}
@@ -106,7 +106,7 @@ const Navbar = ({ toggle }) => {
                         <NavBtnLink
                             to='/'
                             smooth={true} 
-                            duration={500} 
+                            duration={1200} 
                             spy={true} 
                             exact='true' 
                             offset={-80}

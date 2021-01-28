@@ -15,7 +15,7 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 750px;
+    height: 520px;
     width: 100%;
     max-width: 1100px;
     margin-right: auto;
@@ -53,12 +53,12 @@ export const TextWrapper = styled.div`
 `;
 
 export const InfoH1 = styled.h1`
-    margin-bottom: 24px;
+    position: absolute;
     font-size: 48px;
     line-height: 1.1;
     font-weight: 600;
     color: ${({lightText}) => (lightText ? '#f7f8fa' : '#010606')};
-    margin: 0 0 10px auto;
+    margin: -70px 0 150px auto;
 
     @media screen and (max-width: 480px) {
         font-size: 32px;
@@ -67,12 +67,12 @@ export const InfoH1 = styled.h1`
 `;
 
 export const InfoP = styled.p`
+    position: absolute;
     max-width: 440px;
-    margin-bottom: 35px;
     font-size: 18px;
     line-height: 24px;
     color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
-    margin: 0 0 10px auto;
+    margin: -20px 100px 10px auto;
 
     @media screen and (max-width: 480px) {
         margin: 20px 30px 10px 80px;
@@ -85,22 +85,24 @@ export const ButtonWrap = styled.div`
 `;
 
 export const ImgWrap = styled.div`
+    position: sticky;
     max-width: 555px;
     height: 100%;
+    margin: -50px -150px 10px 150px;
+    padding: 20px 0 0 0;
 `;
 
 export const Img = styled.img`
-    width: 50%;
-    margin: 0 0 10px 150px;
-    padding-right: 0;
+    width: 40%;
 
     @media screen and (max-width: 768px) {
         width: 80%;
-        margin: -100px 0 -50px 65px;
+        margin: -10px 0 -50px 65px;
     }
 `;
 
 export const InfoButton = styled(Link)`
+    position: absolute;
     border-radius: 20px;
     background: ${({primary}) => (primary ? '#ba7d8a' : '#010606')};
     white-space: nowrap;
@@ -115,7 +117,7 @@ export const InfoButton = styled(Link)`
     align-items: center; 
     transition: all 0.2s ease-in-out;
     text-decoration: none;
-    margin: 0 0 10px auto;
+    margin: 10px 10px 10px 0;
 
     &:hover {
         transition: all 0.2s ease-in-out;
