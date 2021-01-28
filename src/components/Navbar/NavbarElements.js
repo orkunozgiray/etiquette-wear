@@ -58,7 +58,7 @@ export const NavLogo = styled(LinkR)`
     }
 
     @media screen and (max-width: 960px) {
-        margin-left: 10px;
+        margin-left: 40px;
         font-size: 1.8rem;
     }
 `;
