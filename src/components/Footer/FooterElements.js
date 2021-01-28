@@ -7,8 +7,8 @@ export const FooterContainer = styled.footer`
     padding: 0 0 0 0;
 
     @media screen and (max-width: 768px) {
-        padding: 0 50px 0 0;
-        margin: 10px -50px 10px -10px;
+        padding: 10px 50px 0 0;
+        margin: 10px -50px -10px -10px;
     }
 `;
 
