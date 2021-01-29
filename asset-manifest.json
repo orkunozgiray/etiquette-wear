@@ -1,22 +1,30 @@
 {
   "files": {
-    "main.js": "/etiquette-wear/static/js/main.4e746e82.chunk.js",
-    "main.js.map": "/etiquette-wear/static/js/main.4e746e82.chunk.js.map",
-    "runtime-main.js": "/etiquette-wear/static/js/runtime-main.e7d50ccf.js",
-    "runtime-main.js.map": "/etiquette-wear/static/js/runtime-main.e7d50ccf.js.map",
-    "static/js/2.625562eb.chunk.js": "/etiquette-wear/static/js/2.625562eb.chunk.js",
-    "static/js/2.625562eb.chunk.js.map": "/etiquette-wear/static/js/2.625562eb.chunk.js.map",
-    "static/js/3.2101d615.chunk.js": "/etiquette-wear/static/js/3.2101d615.chunk.js",
-    "static/js/3.2101d615.chunk.js.map": "/etiquette-wear/static/js/3.2101d615.chunk.js.map",
+    "main.css": "/etiquette-wear/static/css/main.5f23499f.chunk.css",
+    "main.js": "/etiquette-wear/static/js/main.a7d38ef8.chunk.js",
+    "main.js.map": "/etiquette-wear/static/js/main.a7d38ef8.chunk.js.map",
+    "runtime-main.js": "/etiquette-wear/static/js/runtime-main.f1cf90b7.js",
+    "runtime-main.js.map": "/etiquette-wear/static/js/runtime-main.f1cf90b7.js.map",
+    "static/js/2.f1835433.chunk.js": "/etiquette-wear/static/js/2.f1835433.chunk.js",
+    "static/js/2.f1835433.chunk.js.map": "/etiquette-wear/static/js/2.f1835433.chunk.js.map",
+    "static/js/3.ce0b0fd6.chunk.js": "/etiquette-wear/static/js/3.ce0b0fd6.chunk.js",
+    "static/js/3.ce0b0fd6.chunk.js.map": "/etiquette-wear/static/js/3.ce0b0fd6.chunk.js.map",
     "index.html": "/etiquette-wear/index.html",
-    "static/js/2.625562eb.chunk.js.LICENSE.txt": "/etiquette-wear/static/js/2.625562eb.chunk.js.LICENSE.txt",
+    "static/css/main.5f23499f.chunk.css.map": "/etiquette-wear/static/css/main.5f23499f.chunk.css.map",
+    "static/js/2.f1835433.chunk.js.LICENSE.txt": "/etiquette-wear/static/js/2.f1835433.chunk.js.LICENSE.txt",
+    "static/media/discount1.jpg": "/etiquette-wear/static/media/discount1.aeb408ec.jpg",
+    "static/media/discount2.jpg": "/etiquette-wear/static/media/discount2.8677d1c5.jpg",
+    "static/media/discount3.jpg": "/etiquette-wear/static/media/discount3.f1f7e865.jpg",
+    "static/media/discount4.jpg": "/etiquette-wear/static/media/discount4.5c95f273.jpg",
+    "static/media/discount5.jpg": "/etiquette-wear/static/media/discount5.535fa876.jpg",
     "static/media/info1.png": "/etiquette-wear/static/media/info1.da535f29.png",
     "static/media/magazine.png": "/etiquette-wear/static/media/magazine.8412b20a.png",
     "static/media/main.eb9e7665.mp4": "/etiquette-wear/static/media/main.eb9e7665.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.e7d50ccf.js",
-    "static/js/2.625562eb.chunk.js",
-    "static/js/main.4e746e82.chunk.js"
+    "static/js/runtime-main.f1cf90b7.js",
+    "static/js/2.f1835433.chunk.js",
+    "static/css/main.5f23499f.chunk.css",
+    "static/js/main.a7d38ef8.chunk.js"
   ]
 }
