@@ -29,9 +29,7 @@ const Magazine = ({ id, imgStart, img, alt }) => {
                                 <ButtonWrap>
                                     <MagazineButton 
                                         to='blog'
-                                        smooth={true}
                                         duration={500}
-                                        spy={true}
                                         exact='true'
                                         offset={-80}
                                     >

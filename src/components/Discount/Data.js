@@ -1,0 +1,15 @@
+export const DiscountData = {
+    id: 'sale',
+    lightBg: true,
+    lightText: false,
+    lighTextDesc: false,
+    headline: 'On Sale!',
+    description: 'Hundreds of clothes are waiting for you!',
+    buttonLabel: 'Shop Now!',
+    imgStart: true,
+    // img: require('./images/discount.png').default,
+    alt: 'Car',
+    dark: false,
+    primary: false,
+    darktext: true,
+};

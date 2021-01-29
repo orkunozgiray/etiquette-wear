@@ -45,11 +45,23 @@ const Navbar = ({ toggle }) => {
                     <NavMenu>
                         <NavItem>
                             <NavLinks
-                                to='women'
-                                smooth={true} 
+                                to='sale'
+                                smooth='true'
                                 duration={1200} 
-                                spy={true} 
                                 exact='true' 
+                                spy={true}
+                                offset={-80}
+                            >
+                                SALE
+                            </NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks
+                                to='women'
+                                smooth='true'
+                                duration={1200} 
+                                exact='true'
+                                spy={true}
                                 offset={-80}
                             >
                                 WOMEN
@@ -58,9 +70,9 @@ const Navbar = ({ toggle }) => {
                         <NavItem>
                             <NavLinks
                                 to='men'
-                                smooth={true} 
+                                smooth='true'
+                                spy={true}
                                 duration={1200} 
-                                spy={true} 
                                 exact='true' 
                                 offset={-80}
                             >
@@ -69,23 +81,11 @@ const Navbar = ({ toggle }) => {
                         </NavItem>
                         <NavItem>
                             <NavLinks
-                                to=''
-                                smooth={true} 
-                                duration={1200} 
-                                spy={true} 
-                                exact='true' 
-                                offset={-80}
-                            >
-                                SALE
-                            </NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks
                                 to='magazine'
-                                smooth={true} 
+                                smooth='true'
                                 duration={1200} 
+                                exact='true'
                                 spy={true} 
-                                exact='true' 
                                 offset={-80}
                             >
                                 MAGAZINE
@@ -95,9 +95,8 @@ const Navbar = ({ toggle }) => {
                     <NavBtn>
                         <NavBtnLink
                             to='/'
-                            smooth={true} 
+                            smooth='true'
                             duration={1200} 
-                            spy={true} 
                             exact='true' 
                             offset={-80}
                         >
@@ -105,9 +104,8 @@ const Navbar = ({ toggle }) => {
                         </NavBtnLink>
                         <NavBtnLink
                             to='/'
-                            smooth={true} 
+                            smooth='true'
                             duration={1200} 
-                            spy={true} 
                             exact='true' 
                             offset={-80}
                         >

@@ -1,22 +1,21 @@
 import styled from 'styled-components';
 import {Link} from 'react-router-dom';
 
-export const InfoContainer = styled.div`
+export const DiscountContainer = styled.div`
     color: #fff;
-    background: ${({lightBg}) => (lightBg ? '#ead8d4' : '#C0D3BD')};
+    background: #fff;
     margin: 10px -10px 10px -10px;
 
     @media screen and (max-width: 768px) {
         padding: 100px 50px 0 0;
-        margin: 10px -100px 10px -10px;
-        margin: 10px -210px 10px -250px;
+        margin: 10px -210px 10px -120px;
     }
 `;
 
-export const InfoWrapper = styled.div`
+export const DiscountWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 520px;
+    height: 400px;
     width: 100%;
     max-width: 1100px;
     margin-right: auto;
@@ -25,7 +24,7 @@ export const InfoWrapper = styled.div`
     justify-content: center;
 `;
 
-export const InfoColumn = styled.div`
+export const DiscountColumn = styled.div`
     display: grid;
     grid-auto-columns: minmax(auto, 1fr);
     align-items: center;
@@ -53,13 +52,13 @@ export const TextWrapper = styled.div`
     padding-bottom: 60px;
 `;
 
-export const InfoH1 = styled.h1`
+export const DiscountH1 = styled.h1`
     position: absolute;
     font-size: 48px;
     line-height: 1.1;
     font-weight: 600;
     color: ${({lightText}) => (lightText ? '#f7f8fa' : '#010606')};
-    margin: -70px 0 150px auto;
+    margin: -30px 20px 10px 70px;
 
     @media screen and (max-width: 480px) {
         font-size: 32px;
@@ -67,43 +66,42 @@ export const InfoH1 = styled.h1`
     }
 `;
 
-export const InfoP = styled.p`
-    position: absolute;
-    max-width: 440px;
-    font-size: 18px;
-    line-height: 24px;
-    color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
-    margin: -20px 100px 10px auto;
+// export const DiscountP = styled.p`
+//     position: absolute;
+//     max-width: 440px;
+//     font-size: 18px;
+//     line-height: 24px;
+//     color: ${({darkText}) => (darkText ? '#010606' : '#000')};
+//     margin: -10px 70px 30px -40px;
 
-    @media screen and (max-width: 480px) {
-        margin: 70px 30px 10px 80px;
-    }
-`;
+//     @media screen and (max-width: 480px) {
+//         margin: 70px 30px 10px 80px;
+//     }
+// `;
 
 export const ButtonWrap = styled.div`
     display: flex;
     justify-content: flex-start;
 `;
 
-export const ImgWrap = styled.div`
-    position: sticky;
-    max-width: 555px;
-    height: 100%;
-    margin: -50px -150px 10px 150px;
-    padding: 20px 0 0 0;
-`;
+// export const ImgWrap = styled.div`
+//     position: sticky;
+//     max-width: 555px;
+//     height: 100%;
+//     margin: -50px -150px 10px 150px;
+//     padding: 20px 0 0 0;
+// `;
 
-export const Img = styled.img`
-    width: 40%;
+// export const Img = styled.img`
+//     width: 40%;
 
-    @media screen and (max-width: 768px) {
-        width: 60%;
-        margin: -130px 0 -50px -50px;
-    }
-`;
+//     @media screen and (max-width: 768px) {
+//         width: 60%;
+//         margin: -130px 0 -50px -50px;
+//     }
+// `;
 
-export const InfoButton = styled(Link)`
-    position: absolute;
+export const DiscountButton = styled(Link)`
     border-radius: 20px;
     background: ${({primary}) => (primary ? '#ba7d8a' : '#010606')};
     white-space: nowrap;
@@ -118,7 +116,7 @@ export const InfoButton = styled(Link)`
     align-items: center; 
     transition: all 0.2s ease-in-out;
     text-decoration: none;
-    margin: 10px 10px 10px 0;
+    margin: 40px 10px -40px 90px;
 
     &:hover {
         transition: all 0.2s ease-in-out;
@@ -130,3 +128,34 @@ export const InfoButton = styled(Link)`
         margin: 0 -30px 30px 130px;
     }
 `;
+
+export const Slider = styled.div`
+    position: relative;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`;
+
+export const LeftArrow = styled.div`
+    position: absolute;
+    top: 50%;
+    left: -120px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+`;
+
+export const RightArrow = styled.div`
+    position: absolute;
+    top: 50%;
+    right: -120px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+`;
+

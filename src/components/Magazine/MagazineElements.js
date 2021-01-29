@@ -8,7 +8,7 @@ export const MagazineContainer = styled.div`
 
     @media screen and (max-width: 768px) {
         padding: 100px 50px 0 0;
-        margin: 10px -100px 10px -10px;
+        margin: 10px -210px 10px -120px;
     }
 `;
 
