@@ -4,12 +4,9 @@ import {Link} from 'react-router-dom';
 export const InfoContainer = styled.div`
     color: #fff;
     background: ${({lightBg}) => (lightBg ? '#ead8d4' : '#C0D3BD')};
-    margin: 10px -10px 10px -10px;
 
     @media screen and (max-width: 768px) {
-        padding: 100px 50px 0 0;
-        margin: 10px -100px 10px -10px;
-        margin: 10px -210px 10px -250px;
+
     }
 `;
 
@@ -63,7 +60,6 @@ export const InfoH1 = styled.h1`
 
     @media screen and (max-width: 480px) {
         font-size: 32px;
-        margin: -70px -40px 10px 10px;
     }
 `;
 
@@ -76,7 +72,7 @@ export const InfoP = styled.p`
     margin: -20px 100px 10px auto;
 
     @media screen and (max-width: 480px) {
-        margin: 70px 30px 10px 80px;
+
     }
 `;
 
@@ -98,7 +94,6 @@ export const Img = styled.img`
 
     @media screen and (max-width: 768px) {
         width: 60%;
-        margin: -130px 0 -50px -50px;
     }
 `;
 
@@ -127,6 +122,6 @@ export const InfoButton = styled(Link)`
     }
 
     @media screen and (max-width: 480px) {
-        margin: 0 -30px 30px 130px;
+        
     }
 `;

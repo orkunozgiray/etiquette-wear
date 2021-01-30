@@ -6,8 +6,6 @@ export const Nav = styled.nav`
     background: ${({scrollNav}) => (scrollNav ? '#414D60' : 'transparent')};
     height: 80px;
     margin-top: -90px;
-    margin-left: -10px;
-    margin-right: -10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,9 +16,6 @@ export const Nav = styled.nav`
 
     @media screen and (max-width: 960px) {
         transition: 0.8s all ease;
-        padding-top: -20px;
-        padding-right: 50px;
-        margin: -10px -210px -10px -10px;
     }
 `;
 
@@ -34,8 +29,7 @@ export const NavContainer = styled.div`
     max-width: 1100px;
 
     @media screen and (max-width: 960px) {
-        padding-right: -80px;  
-        margin-right: 20px;  
+
     }
 `;
 
@@ -54,7 +48,6 @@ export const NavLogo = styled(LinkR)`
 
     &:hover {
         transition: all 0.5s ease-in-out;
-        letter-spacing: 15px;
     }
 
     @media screen and (max-width: 960px) {
@@ -132,7 +125,6 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkR)`
     border-radius: 18px;
-
     white-space: nowrap;
     margin: 10px -70px 0 75px;
     padding: 10px 10px;
@@ -161,5 +153,34 @@ export const NavSearch = styled.div`
 
     &:hover {
         transition: all 0.4s ease-in-out;
+    }
+`;
+
+export const ModalContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+`;
+
+export const ButtonModal = styled.button`
+    background: transparent;
+    border-radius: 18px;
+    white-space: nowrap;
+    margin: 10px -70px 0 75px;
+    padding: 10px 10px;
+    color: #fff;
+    font-size: 11px;
+    outline: none;
+    border: 1.5px solid #ccd5f0;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    text-decoration: none;
+
+    &:hover {
+        transition: all 0.4s ease-in-out;
+        background: #d0e2f2;
+        color: #010606;
+        letter-spacing: 1.5px;
     }
 `;

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FaBars, FaSearch } from 'react-icons/fa';
 import { animateScroll as scroll } from 'react-scroll';
+import SignInModal from './SignInModal';
 import {
     Nav, 
     NavContainer, 
@@ -11,12 +12,16 @@ import {
     NavLinks,
     NavBtn,
     NavBtnLink,
-    NavSearch 
+    NavSearch,
+    ButtonModal,
+    ModalContainer
 } from './NavbarElements';
 
 const Navbar = ({ toggle }) => {
 
     const [scrollNav, setScrollNav] = useState(false);
+    const [showModal, setShowModal] = useState(false);
+
 
     const changeNav = () => {
         if(window.scrollY >= 80) {
@@ -32,6 +37,11 @@ const Navbar = ({ toggle }) => {
     
     const toggleHome = () => {
         scroll.scrollToTop()
+    };
+
+
+    const openModal = () => {
+        setShowModal(prev => !prev);
     };
 
     return (
@@ -93,15 +103,21 @@ const Navbar = ({ toggle }) => {
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
-                        <NavBtnLink
-                            to='/'
-                            smooth='true'
-                            duration={1200} 
-                            exact='true' 
-                            offset={-80}
-                        >
-                            Sign In
-                        </NavBtnLink>
+                        <ModalContainer>
+                            <ButtonModal
+                                onClick={openModal}
+                                to='/'
+                                smooth='true'
+                                duration={1200} 
+                                exact='true' 
+                                offset={-80}
+                            >
+                                Sign In
+                            </ButtonModal>
+                            <SignInModal showModal={showModal} setShowModal={setShowModal} />
+                            {/* <GlobalStyle /> */}
+                        </ModalContainer>
+
                         <NavBtnLink
                             to='/'
                             smooth='true'

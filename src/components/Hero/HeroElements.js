@@ -7,13 +7,10 @@ export const HeroContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 30px;
     right: 0;
     height: 500px;
     position: relative;
     z-index: 1;
-    margin-right: -10px;
-    margin-left: -10px;
 
     :before {
         content: '';
@@ -27,8 +24,7 @@ export const HeroContainer = styled.div`
     }
 
     @media screen and (max-width: 768px) {
-        padding: 0 50px 0 0;
-        margin: -80px -210px 10px -10px;
+
     }
 `;
 
@@ -68,7 +64,6 @@ export const HeroH1 = styled.h1`
 
     @media screen and (max-width: 768px) {
         font-size: 32px;
-        margin: 0 -50px 0 0;
     }
 `;
 
@@ -81,7 +76,6 @@ export const HeroP = styled.p`
 
     @media screen and (max-width: 768px) {
         font-size: 18px;
-        margin: 40px -50px 0 0;
     }
 `;
 

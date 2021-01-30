@@ -4,11 +4,9 @@ import {Link} from 'react-router-dom';
 export const MagazineContainer = styled.div`
     color: #fff;
     background: #F2EFBF;
-    margin: 10px -10px 10px -10px;
 
     @media screen and (max-width: 768px) {
-        padding: 100px 50px 0 0;
-        margin: 10px -210px 10px -120px;
+
     }
 `;
 
@@ -148,6 +146,5 @@ export const Img = styled.img`
 
     @media screen and (max-width: 768px) {
         width: 50%;
-        margin: -80px 20px 0 -20px;
     }
 `;

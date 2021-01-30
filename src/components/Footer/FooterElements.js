@@ -3,12 +3,9 @@ import {Link} from 'react-router-dom';
 
 export const FooterContainer = styled.footer`
     background: #414D60;
-    margin: 0 -10px -10px -10px; 
-    padding: 0 0 0 0;
 
     @media screen and (max-width: 768px) {
-        padding: 10px -10px 30px 0;
-        margin: 10px -180px -50px -10px;
+
     }
 `;
 
@@ -22,7 +19,6 @@ export const FooterWrapper = styled.div`
     margin: 0 auto;
 
     @media screen and (max-width: 820px) {
-        padding: 0 50px 0 -40px;
     }
 `;
 
@@ -31,7 +27,6 @@ export const FooterLinkContainer = styled.div`
     justify-content: center;
 
     @media screen and (max-width: 820px) {
-        padding: 0 50px 0 40px;
     }
 `;
 
@@ -40,7 +35,6 @@ export const FooterLinkWrapper = styled.div`
 
     @media screen and (max-width: 820px) {
         flex-direction: column;
-        padding: 0 10px 0 75px;
     }
 `;
 
@@ -87,7 +81,7 @@ export const SocialMedia = styled.section`
     width: 100%;
 
     @media screen and (max-width: 820px) {
-        padding: 0 50px 0 100px;
+
     }
 `;
 

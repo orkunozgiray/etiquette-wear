@@ -4,11 +4,9 @@ import {Link} from 'react-router-dom';
 export const DiscountContainer = styled.div`
     color: #fff;
     background: #fff;
-    margin: 10px -10px 10px -10px;
 
     @media screen and (max-width: 768px) {
-        padding: 100px 50px 0 0;
-        margin: 10px -210px 10px -120px;
+
     }
 `;
 
@@ -62,7 +60,6 @@ export const DiscountH1 = styled.h1`
 
     @media screen and (max-width: 480px) {
         font-size: 32px;
-        margin: -70px -40px 10px 10px;
     }
 `;
 
@@ -125,7 +122,6 @@ export const DiscountButton = styled(Link)`
     }
 
     @media screen and (max-width: 480px) {
-        margin: 0 -30px 30px 130px;
     }
 `;
 
