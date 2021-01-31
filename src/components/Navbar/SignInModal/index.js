@@ -5,7 +5,9 @@ import {
     ModalWrapper,
     ModalImg,
     ModalContent,
-    CloseModalButton
+    CloseModalButton,
+    SignInBtn,
+    SignUpBtn
 } from './SignInModalElements';
 
 export const SignInModal = ({ showModal, setShowModal }) => {
@@ -49,11 +51,19 @@ export const SignInModal = ({ showModal, setShowModal }) => {
           <Background onClick={closeModal} ref={modalRef}>
             <animated.div style={animation}>
               <ModalWrapper showModal={showModal}>
-                <ModalImg src={require('./images/discount.jpg').default} alt='camera' />
+                <ModalImg src={require('./images/discount.jpg').default} alt='illustration' />
                 <ModalContent>
                   <p>Get Special Offers</p>
-                  <button>Create my Account</button>
-                  <button>Sign In</button>
+                  <SignUpBtn
+                    to='signup'
+                  >
+                    Create my Account
+                  </SignUpBtn>
+                  <SignInBtn
+                    to='signin'
+                  >
+                    Sign In
+                  </SignInBtn>
                 </ModalContent>
                 <CloseModalButton
                   aria-label='Close modal'

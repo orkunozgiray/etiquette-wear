@@ -27,7 +27,8 @@ const Info = ({
     alt,
     primary,
     dark,
-    dark2
+    dark2,
+    path
     }) => {
     return (
         <>
@@ -45,7 +46,7 @@ const Info = ({
                                 <InfoP darkText={darkText}>{description}</InfoP>
                                 <ButtonWrap>
                                     <InfoButton 
-                                        to='blog'
+                                        to={path}
                                         duration={500}
                                         exact='true'
                                         offset={-80}

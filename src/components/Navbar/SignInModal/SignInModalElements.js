@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 import { MdClose } from 'react-icons/md';
+import { Link } from 'react-router-dom';
+
 
 export const Background = styled.div`
   width: 350px;
@@ -82,4 +84,48 @@ export const CloseModalButton = styled(MdClose)`
   height: 32px;
   padding: 0;
   z-index: 10;
+`;
+
+export const SignInBtn = styled(Link)`
+  border-radius: 4px;
+  background: #fff;
+  white-space: nowrap;
+  padding: 0 0 0 0;
+  color: #000;
+  font-size: 14px;
+  outline: none;
+  border: 1.5px solid #d6d6d6;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+
+  &:hover {
+    transition: all 0.3s ease-in-out;
+    background: #99adcf;
+  }
+`;
+
+export const SignUpBtn = styled(Link)`
+  border-radius: 4px;
+  background: #fff;
+  white-space: nowrap;
+  padding: 0 0 0 0;
+  color: #000;
+  font-size: 14px;
+  outline: none;
+  border: 1.5px solid #d6d6d6;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+
+  &:hover {
+    transition: all 0.3s ease-in-out;
+    background: #99adcf;
+  }
 `;

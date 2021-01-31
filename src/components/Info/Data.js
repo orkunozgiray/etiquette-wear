@@ -11,7 +11,8 @@ export const InfoOne = {
     alt: 'Car',
     dark: false,
     primary: false,
-    darktext: true
+    darktext: true,
+    path: 'women'
 };
 
 export const InfoTwo = {
@@ -27,5 +28,6 @@ export const InfoTwo = {
     alt: 'Car',
     dark: false,
     primary: false,
-    darkText: true
+    darkText: true,
+    path: 'men'
 };
