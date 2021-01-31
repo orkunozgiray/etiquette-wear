@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/etiquette-wear/static/css/main.5f23499f.chunk.css",
-    "main.js": "/etiquette-wear/static/js/main.bfc3c65b.chunk.js",
-    "main.js.map": "/etiquette-wear/static/js/main.bfc3c65b.chunk.js.map",
+    "main.js": "/etiquette-wear/static/js/main.aa4ff2e7.chunk.js",
+    "main.js.map": "/etiquette-wear/static/js/main.aa4ff2e7.chunk.js.map",
     "runtime-main.js": "/etiquette-wear/static/js/runtime-main.6877cffe.js",
     "runtime-main.js.map": "/etiquette-wear/static/js/runtime-main.6877cffe.js.map",
-    "static/js/2.64ba7a46.chunk.js": "/etiquette-wear/static/js/2.64ba7a46.chunk.js",
-    "static/js/2.64ba7a46.chunk.js.map": "/etiquette-wear/static/js/2.64ba7a46.chunk.js.map",
+    "static/js/2.0366ba72.chunk.js": "/etiquette-wear/static/js/2.0366ba72.chunk.js",
+    "static/js/2.0366ba72.chunk.js.map": "/etiquette-wear/static/js/2.0366ba72.chunk.js.map",
     "static/js/3.d0ceb531.chunk.js": "/etiquette-wear/static/js/3.d0ceb531.chunk.js",
     "static/js/3.d0ceb531.chunk.js.map": "/etiquette-wear/static/js/3.d0ceb531.chunk.js.map",
     "index.html": "/etiquette-wear/index.html",
     "static/css/main.5f23499f.chunk.css.map": "/etiquette-wear/static/css/main.5f23499f.chunk.css.map",
-    "static/js/2.64ba7a46.chunk.js.LICENSE.txt": "/etiquette-wear/static/js/2.64ba7a46.chunk.js.LICENSE.txt",
+    "static/js/2.0366ba72.chunk.js.LICENSE.txt": "/etiquette-wear/static/js/2.0366ba72.chunk.js.LICENSE.txt",
     "static/media/discount.jpg": "/etiquette-wear/static/media/discount.378b888b.jpg",
     "static/media/discount1.jpg": "/etiquette-wear/static/media/discount1.aeb408ec.jpg",
     "static/media/discount2.jpg": "/etiquette-wear/static/media/discount2.8677d1c5.jpg",
@@ -24,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6877cffe.js",
-    "static/js/2.64ba7a46.chunk.js",
+    "static/js/2.0366ba72.chunk.js",
     "static/css/main.5f23499f.chunk.css",
-    "static/js/main.bfc3c65b.chunk.js"
+    "static/js/main.aa4ff2e7.chunk.js"
   ]
 }
