@@ -7,7 +7,8 @@ import {
     ModalContent,
     CloseModalButton,
     SignInBtn,
-    SignUpBtn
+    SignUpBtn,
+    ModalP
 } from './SignInModalElements';
 
 export const SignInModal = ({ showModal, setShowModal }) => {
@@ -53,7 +54,7 @@ export const SignInModal = ({ showModal, setShowModal }) => {
               <ModalWrapper showModal={showModal}>
                 <ModalImg src={require('./images/discount.jpg').default} alt='illustration' />
                 <ModalContent>
-                  <p>Get Special Offers</p>
+                  <ModalP>Get Special Offers</ModalP>
                   <SignUpBtn
                     to='signup'
                   >

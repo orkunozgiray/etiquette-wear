@@ -129,3 +129,7 @@ export const SignUpBtn = styled(Link)`
     background: #99adcf;
   }
 `;
+
+export const ModalP = styled.p`
+  font-size: 18px;
+`;

@@ -55,6 +55,18 @@ const Navbar = ({ toggle }) => {
                     <NavMenu>
                         <NavItem>
                             <NavLinks
+                                to='news'
+                                smooth='true'
+                                duration={1200} 
+                                exact='true' 
+                                spy={true}
+                                offset={-80}
+                            >
+                                WHAT'S NEW
+                            </NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks
                                 to='sale'
                                 smooth='true'
                                 duration={1200} 

@@ -36,31 +36,40 @@ const Footer = () => {
                     <FooterLinkContainer>
                         <FooterLinkWrapper>
                             <FooterLinkItems>
-                                <FooterLinkTitle>About Us</FooterLinkTitle>
-                                <FooterLink to='/'>About Us</FooterLink>
-                                <FooterLink to='/'>About Us</FooterLink>
-                                <FooterLink to='/'>About Us</FooterLink>
-                                <FooterLink to='/'>About Us</FooterLink>
+                                <FooterLinkTitle>Need Help?</FooterLinkTitle>
+                                <FooterLink to='contactus'>Contact Us</FooterLink>
+                                <FooterLink to='/'>Shipping Services</FooterLink>
+                                <FooterLink to='/'>Payment Options</FooterLink>
+                                <FooterLink to='/'>Returns and Excanges</FooterLink>
+                                <FooterLink to='/'>Product Care</FooterLink>
+                                <FooterLink to='/'>FAQs</FooterLink>
+                                <FooterLink to='/'>Unsubscribe</FooterLink>
+                                <FooterLink to='/'>How to Shop</FooterLink>
                             </FooterLinkItems>
                             <FooterLinkItems>
-                                <FooterLinkTitle>Contact Us</FooterLinkTitle>
-                                <FooterLink to='/'>Contacts Us</FooterLink>
-                                <FooterLink to='/'>Contact Us</FooterLink>
-                                <FooterLink to='/'>Contact Us</FooterLink>
-                                <FooterLink to='/'>Contact Us</FooterLink>
+                                <FooterLinkTitle>The Company</FooterLinkTitle>
+                                <FooterLink to='/'>About Etiquette</FooterLink>
+                                <FooterLink to='/'>Code of Ethics</FooterLink>
+                                <FooterLink to='/'>Careers</FooterLink>
+                                <FooterLink to='/'>Legal</FooterLink>
+                                <FooterLink to='/'>Privacy and Cookies</FooterLink>
+                                <FooterLink to='/'>Corporate Information</FooterLink>
                             </FooterLinkItems>
                         </FooterLinkWrapper>
                         <FooterLinkWrapper>
                             <FooterLinkItems>
-                                <FooterLinkTitle>About Us</FooterLinkTitle>
-                                <FooterLink to='/'>About Us</FooterLink>
-                                <FooterLink to='/'>About Us</FooterLink>
-                                <FooterLink to='/'>About Us</FooterLink>
-                                <FooterLink to='/'>About Us</FooterLink>
+                                <FooterLinkTitle>Find Us On</FooterLinkTitle>
+                                <FooterLink to='/'>Facebook</FooterLink>
+                                <FooterLink to='/'>Instagram</FooterLink>
+                                <FooterLink to='/'>Twitter</FooterLink>
+                                <FooterLink to='/'>Youtube</FooterLink>
+                                <FooterLink to='/'>Pinterest</FooterLink>
+                                <FooterLink to='/'>Snapchat</FooterLink>
+                                <FooterLink to='/'>TikTok</FooterLink>
                             </FooterLinkItems>
                             <FooterLinkItems>
-                                <FooterLinkTitle>Contact Us</FooterLinkTitle>
-                                <FooterLink to='/'>Contacts Us</FooterLink>
+                                <FooterLinkTitle>Exclusive Services</FooterLinkTitle>
+                                <FooterLink to='/'>Services</FooterLink>
                                 <FooterLink to='/'>Contact Us</FooterLink>
                                 <FooterLink to='/'>Contact Us</FooterLink>
                                 <FooterLink to='/'>Contact Us</FooterLink>
