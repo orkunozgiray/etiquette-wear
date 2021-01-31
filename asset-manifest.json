@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/etiquette-wear/static/css/main.5f23499f.chunk.css",
-    "main.js": "/etiquette-wear/static/js/main.aa4ff2e7.chunk.js",
-    "main.js.map": "/etiquette-wear/static/js/main.aa4ff2e7.chunk.js.map",
-    "runtime-main.js": "/etiquette-wear/static/js/runtime-main.6877cffe.js",
-    "runtime-main.js.map": "/etiquette-wear/static/js/runtime-main.6877cffe.js.map",
-    "static/js/2.0366ba72.chunk.js": "/etiquette-wear/static/js/2.0366ba72.chunk.js",
-    "static/js/2.0366ba72.chunk.js.map": "/etiquette-wear/static/js/2.0366ba72.chunk.js.map",
-    "static/js/3.d0ceb531.chunk.js": "/etiquette-wear/static/js/3.d0ceb531.chunk.js",
-    "static/js/3.d0ceb531.chunk.js.map": "/etiquette-wear/static/js/3.d0ceb531.chunk.js.map",
+    "main.css": "/etiquette-wear/static/css/main.0bcfe7b6.chunk.css",
+    "main.js": "/etiquette-wear/static/js/main.71e5a5ba.chunk.js",
+    "main.js.map": "/etiquette-wear/static/js/main.71e5a5ba.chunk.js.map",
+    "runtime-main.js": "/etiquette-wear/static/js/runtime-main.976e99df.js",
+    "runtime-main.js.map": "/etiquette-wear/static/js/runtime-main.976e99df.js.map",
+    "static/js/2.dd04bbea.chunk.js": "/etiquette-wear/static/js/2.dd04bbea.chunk.js",
+    "static/js/2.dd04bbea.chunk.js.map": "/etiquette-wear/static/js/2.dd04bbea.chunk.js.map",
+    "static/js/3.c8163ac7.chunk.js": "/etiquette-wear/static/js/3.c8163ac7.chunk.js",
+    "static/js/3.c8163ac7.chunk.js.map": "/etiquette-wear/static/js/3.c8163ac7.chunk.js.map",
     "index.html": "/etiquette-wear/index.html",
-    "static/css/main.5f23499f.chunk.css.map": "/etiquette-wear/static/css/main.5f23499f.chunk.css.map",
-    "static/js/2.0366ba72.chunk.js.LICENSE.txt": "/etiquette-wear/static/js/2.0366ba72.chunk.js.LICENSE.txt",
+    "static/css/main.0bcfe7b6.chunk.css.map": "/etiquette-wear/static/css/main.0bcfe7b6.chunk.css.map",
+    "static/js/2.dd04bbea.chunk.js.LICENSE.txt": "/etiquette-wear/static/js/2.dd04bbea.chunk.js.LICENSE.txt",
     "static/media/discount.jpg": "/etiquette-wear/static/media/discount.378b888b.jpg",
     "static/media/discount1.jpg": "/etiquette-wear/static/media/discount1.aeb408ec.jpg",
     "static/media/discount2.jpg": "/etiquette-wear/static/media/discount2.8677d1c5.jpg",
@@ -23,9 +23,9 @@
     "static/media/main.eb9e7665.mp4": "/etiquette-wear/static/media/main.eb9e7665.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.6877cffe.js",
-    "static/js/2.0366ba72.chunk.js",
-    "static/css/main.5f23499f.chunk.css",
-    "static/js/main.aa4ff2e7.chunk.js"
+    "static/js/runtime-main.976e99df.js",
+    "static/js/2.dd04bbea.chunk.js",
+    "static/css/main.0bcfe7b6.chunk.css",
+    "static/js/main.71e5a5ba.chunk.js"
   ]
 }
