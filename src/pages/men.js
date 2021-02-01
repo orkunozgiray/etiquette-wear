@@ -3,7 +3,7 @@ import Footer from '../components/Footer';
 import Hero from '../components/Hero';
 import { MenData } from '../components/Men/Data';
 import Men from '../components/Men/Index';
-import Navbar from '../components/Navbar';
+import Navbar2 from '../components/Navbar2';
 import Sidebar from '../components/Sidebar';
 
 const MenP = () => {
@@ -17,7 +17,7 @@ const MenP = () => {
     return (
         <>
             <Sidebar isOpen={isOpen} toggle={toggle}/>
-            <Navbar toggle={toggle}/>
+            <Navbar2 toggle={toggle}/>
             <Hero />
             <Men {...MenData}/>
             <Footer />

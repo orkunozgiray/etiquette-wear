@@ -19,12 +19,14 @@ const Sidebar = ({ isOpen, toggle }) => {
                 </Icon>
                 <SidebarWrapper>
                     <SidebarMenu>
-                        <SidebarLinks to='/' onClick={toggle}>WOMEN</SidebarLinks>
-                        <SidebarLinks to='/' onClick={toggle}>MEN</SidebarLinks>
-                        <SidebarLinks to='/' onClick={toggle}>CREATE MY ETIQUETTE</SidebarLinks>
+                        <SidebarLinks to='/news' onClick={toggle}>WHAT'S NEW</SidebarLinks>
+                        <SidebarLinks to='/sale' onClick={toggle}>SALE</SidebarLinks>
+                        <SidebarLinks to='/women' onClick={toggle}>WOMEN</SidebarLinks>
+                        <SidebarLinks to='/men' onClick={toggle}>MEN</SidebarLinks>
+                        <SidebarLinks to='/blog' onClick={toggle}>MAGAZINE</SidebarLinks>
                     </SidebarMenu>
                     <SideBtnWrap>
-                        <SidebarRoute to='/'>Sign In</SidebarRoute>
+                        <SidebarRoute to='/signin'>Sign In</SidebarRoute>
                     </SideBtnWrap>
                 </SidebarWrapper>
             </SidebarContainer>
