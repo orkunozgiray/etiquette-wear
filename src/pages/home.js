@@ -17,7 +17,7 @@ import './Slider.css';
 import './Slider2.css';
 import Announcement from '../components/Announcement';
 
-const Home = () => {
+const HomeP = () => {
 
     const [isOpen, setIsOpen] = useState(false);
 
@@ -40,4 +40,4 @@ const Home = () => {
     );
 }
 
-export default Home;
+export default HomeP;

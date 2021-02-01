@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from '../components/Footer';
 
-const Account = () => {
+const AccountP = () => {
     return (
         <>
             <Footer />
@@ -9,4 +9,4 @@ const Account = () => {
     );
 }
 
-export default Account;
+export default AccountP;

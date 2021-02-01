@@ -1,12 +1,16 @@
 import React from 'react';
+import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import ContactUs from '../components/ContactUs';
 
-const ContactUs = () => {
+const ContactUsP = () => {
     return (
         <>
+            <Navbar />
+            <ContactUs />
             <Footer />
         </>
     );
 }
 
-export default ContactUs;
+export default ContactUsP;

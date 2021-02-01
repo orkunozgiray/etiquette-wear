@@ -1,16 +1,16 @@
 import React from 'react';
+import AboutUs from '../components/AboutUs';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
-import Sale from '../components/Sale';
 
-const SaleP = () => {
+const AboutUsP = () => {
     return (
         <>
             <Navbar />
-            <Sale />
-            <Footer />
+            <AboutUs />
+            <Footer />            
         </>
     );
 }
 
-export default SaleP;
+export default AboutUsP;

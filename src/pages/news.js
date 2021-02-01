@@ -1,12 +1,16 @@
 import React from 'react';
 import Footer from '../components/Footer';
+import News from '../components/News';
+import Navbar from '../components/Navbar';
 
-const News = () => {
+const NewsP = () => {
     return (
         <>
+            <Navbar />
+            <News />
             <Footer />
         </>
     );
 }
 
-export default News;
+export default NewsP;

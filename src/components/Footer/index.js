@@ -48,7 +48,7 @@ const Footer = () => {
                             </FooterLinkItems>
                             <FooterLinkItems>
                                 <FooterLinkTitle>The Company</FooterLinkTitle>
-                                <FooterLink to='/'>About Etiquette</FooterLink>
+                                <FooterLink to='aboutus'>About Etiquette</FooterLink>
                                 <FooterLink to='/'>Code of Ethics</FooterLink>
                                 <FooterLink to='/'>Careers</FooterLink>
                                 <FooterLink to='/'>Legal</FooterLink>
