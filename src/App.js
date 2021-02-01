@@ -10,10 +10,12 @@ import SignUpP from './pages/signup';
 import ContactUsP from './pages/contactus';
 import AboutUsP from './pages/aboutus';
 import NewsP from './pages/news';
+import  ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Switch>
         <Route path='/etiquette-wear' component={HomeP} exact />
         <Route path='/news' component={NewsP} exact />
