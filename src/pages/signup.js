@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import Navbar2 from '../components/Navbar2';
+import React, { useState, useEffect } from 'react';
 import Footer from '../components/Footer';
 import SignUp from '../components/SignUp';
 import Sidebar from '../components/Sidebar';
@@ -14,8 +13,7 @@ const SignUpP = () => {
 
     return (
         <>
-            <Sidebar isOpen={isOpen} toggle={toggle}/>
-            <Navbar2 toggle={toggle}/>
+            <Sidebar isOpen={isOpen} toggle={toggle}/>         
             <SignUp />
             <Footer />
         </>

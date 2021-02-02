@@ -61,7 +61,7 @@ export const SignInModal = ({ showModal, setShowModal }) => {
                     Create my Account
                   </SignUpBtn>
                   <SignInBtn
-                    to='signin'
+                    to='login'
                   >
                     Sign In
                   </SignInBtn>

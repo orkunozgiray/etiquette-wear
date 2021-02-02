@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Footer from '../components/Footer';
 import { MagazineData } from '../components/Magazine/Data';
 import { DiscountData } from '../components/Discount/Data';
@@ -16,8 +16,29 @@ import { AnnSliderData } from '../components/Announcement/AnnSliderData';
 import './Slider.css';
 import './Slider2.css';
 import Announcement from '../components/Announcement';
+import fire from '../fire';
+import Navbar12 from '../components/Navbar12';
 
 const HomeP = () => {
+
+    //Firebase E-Mail Login Auth
+    const [user, setUser] = useState("");
+
+    const authListener = () => {
+        fire.auth().onAuthStateChanged((user) => {
+            if (user) {
+                setUser(user);
+            } else {
+                setUser("");
+            }
+        });
+    };
+
+    useEffect(() => {
+        authListener();
+    }, []);
+    //Firebase E-Mail Login Auth
+
 
     const [isOpen, setIsOpen] = useState(false);
 
@@ -27,15 +48,19 @@ const HomeP = () => {
 
     return (
         <>
-          <Sidebar isOpen={isOpen} toggle={toggle}/>
-          <Navbar toggle={toggle}/>
-          <Hero />
-          <Announcement slides={AnnSliderData} {...AnnData} />
-          <Discount slides={SliderData} {...DiscountData} />
-          <Info {...InfoOne} />
-          <Info {...InfoTwo} />
-          <Magazine {...MagazineData} />
-          <Footer />
+            <Sidebar isOpen={isOpen} toggle={toggle}/>
+            {user ? (
+                    <Navbar12 toggle={toggle}/>
+                ) : (
+                    <Navbar toggle={toggle}/>
+                )}            
+            <Hero />
+            <Announcement slides={AnnSliderData} {...AnnData} />
+            <Discount slides={SliderData} {...DiscountData} />
+            <Info {...InfoOne} />
+            <Info {...InfoTwo} />
+            <Magazine {...MagazineData} />
+            <Footer />
         </>
     );
 }

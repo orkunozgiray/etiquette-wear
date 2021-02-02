@@ -55,15 +55,10 @@ export const SignInModal = ({ showModal, setShowModal }) => {
                 <ModalImg src={require('./images/discount.jpg').default} alt='illustration' />
                 <ModalContent>
                   <ModalP>Get Special Offers</ModalP>
-                  <SignUpBtn
-                    to='signup'
-                  >
-                    Create my Account
-                  </SignUpBtn>
                   <SignInBtn
                     to='login'
                   >
-                    Sign In
+                    Logout
                   </SignInBtn>
                 </ModalContent>
                 <CloseModalButton
