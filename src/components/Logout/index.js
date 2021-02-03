@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
-const Account = ({ handleLogout }) => {
+const Logout = ({ handleLogout }) => {
     return (
-        <section className="account">
+        <section className="logout">
             <nav>
                 <h2>Welcome</h2>
                 <button onClick={handleLogout}>Logout</button>
@@ -11,4 +11,4 @@ const Account = ({ handleLogout }) => {
     );
 }
 
-export default Account;
+export default Logout;

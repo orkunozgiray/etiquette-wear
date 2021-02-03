@@ -92,7 +92,7 @@
     font-size: 16px;
   }
   
-  .account {
+  .logout {
     width: 100%;
     min-height: 100vh;
     background: radial-gradient(
@@ -104,7 +104,7 @@
     margin-top: 100px;
   }
   
-  .account nav {
+  .logout nav {
     background: #603bbb;
     width: 100%;
     padding: 20px 40px;
@@ -113,11 +113,11 @@
     justify-content: space-between;
   }
   
-  .account nav h2 {
+  .logout nav h2 {
     color: #fff;
   }
   
-  .account nav button {
+  .logout nav button {
     width: 86px;
     padding: 8px 0;
     background: #3a2b58;

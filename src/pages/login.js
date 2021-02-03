@@ -3,7 +3,7 @@ import Navbar2 from '../components/Navbar2';
 import Navbar21 from '../components/Navbar21';
 import Footer from '../components/Footer';
 import SignIn from '../components/SignIn';
-import Account from '../components/Account'
+import Logout from '../components/Logout'
 import Sidebar from '../components/Sidebar';
 import fire from '../fire';
 
@@ -104,7 +104,7 @@ const LoginP = () => {
             )}
             
             {user ? (
-                <Account handleLogout={handleLogout} /> 
+                <Logout handleLogout={handleLogout} /> 
             ) : (
                 <SignIn 
                     email={email} 

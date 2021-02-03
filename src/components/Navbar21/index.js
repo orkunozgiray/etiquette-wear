@@ -124,7 +124,7 @@ const Navbar21 = ({ toggle }) => {
                                 exact='true' 
                                 offset={-80}
                             >
-                                MY Profile
+                                My Profile
                             </ButtonModal>
                             <SignInModal showModal={showModal} setShowModal={setShowModal} />
                             {/* <GlobalStyle /> */}

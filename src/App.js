@@ -10,6 +10,7 @@ import SignUpP from './pages/signup';
 import ContactUsP from './pages/contactus';
 import AboutUsP from './pages/aboutus';
 import NewsP from './pages/news';
+import ProfileP from './pages/profile';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Route path='/signup' component={SignUpP} exact />
         <Route path='/contactus' component={ContactUsP} exact />
         <Route path='/aboutus' component={AboutUsP} exact />
+        <Route path='/profile' component={ProfileP} exact />
       </Switch>
     </Router>
   );

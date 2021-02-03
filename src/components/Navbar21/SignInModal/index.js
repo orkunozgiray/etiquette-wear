@@ -60,6 +60,11 @@ export const SignInModal = ({ showModal, setShowModal }) => {
                   >
                     Logout
                   </SignInBtn>
+                  <SignInBtn
+                    to='account'
+                  >
+                    MyAccount
+                  </SignInBtn>
                 </ModalContent>
                 <CloseModalButton
                   aria-label='Close modal'

@@ -26,7 +26,6 @@ const NewsP = () => {
     }, []);
     //Firebase E-Mail Login Auth
 
-
     const [isOpen, setIsOpen] = useState(false);
 
     const toggle = () => {

@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react';
 import Footer from '../components/Footer';
 import Navbar2 from '../components/Navbar2';
 import Sidebar from '../components/Sidebar';
+import Account from '../components/Logout';
 import fire from '../fire';
 import Navbar21 from '../components/Navbar21';
-import MyAccount from '../components/MyAccount';
 
-const AccountP = () => {
+const ProfileP = () => {
 
     //Firebase E-Mail Login Auth
     const [user, setUser] = useState("");
@@ -26,7 +26,6 @@ const AccountP = () => {
     }, []);
     //Firebase E-Mail Login Auth
 
-
     const [isOpen, setIsOpen] = useState(false);
 
     const toggle = () => {
@@ -40,11 +39,11 @@ const AccountP = () => {
                 <Navbar21 toggle={toggle}/>
             ) : (
                 <Navbar2 toggle={toggle}/>
-            )}  
-            <MyAccount />
+            )}
+            <Account />              
             <Footer />
         </>
     );
 }
 
-export default AccountP;
+export default ProfileP;
