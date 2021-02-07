@@ -1,7 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import { FaBars, FaSearch } from 'react-icons/fa';
 import { animateScroll as scroll } from 'react-scroll';
 import SignInModal from './SignInModal';
+import { DataContext } from '../MenProducts/DataProvider';
+import { BsBagFill } from 'react-icons/bs';
 import {
     Nav, 
     NavContainer, 
@@ -14,10 +16,14 @@ import {
     NavBtnLink,
     NavSearch,
     ButtonModal,
-    ModalContainer
+    ModalContainer,
+    MyBag
 } from './NavbarElements';
 
 const Navbar12 = ({ toggle }) => {
+
+    const value = useContext(DataContext);
+    const [cart] = value.cart;
 
     const [scrollNav, setScrollNav] = useState(false);
     const [showModal, setShowModal] = useState(false);
@@ -131,13 +137,16 @@ const Navbar12 = ({ toggle }) => {
                         </ModalContainer>
                         
                         <NavBtnLink
-                            to='/'
+                            to='/shoppingcart'
                             smooth='true'
                             duration={1200} 
                             exact='true' 
                             offset={-80}
                         >
-                            My Bag
+                            <span>{cart.length}</span>
+                            <MyBag>
+                                <BsBagFill />
+                            </MyBag>
                         </NavBtnLink>
                         <NavSearch>
                             <FaSearch />

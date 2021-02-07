@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from 'react';
+import Cart from '../components/Cart';
 import Footer from '../components/Footer';
 import Navbar2 from '../components/Navbar2';
-import Sidebar from '../components/Sidebar';
-import Account from '../components/Logout';
-import fire from '../fire';
 import Navbar21 from '../components/Navbar21';
+import Sidebar from '../components/Sidebar';
+import fire from '../fire';
+import DataProvider from '../components/MenProducts/DataProvider';
+import Hero from '../components/Hero';
 
-const ProfileP = () => {
+const ShoppingCartP = () => {
 
     //Firebase E-Mail Login Auth
     const [user, setUser] = useState("");
@@ -33,17 +35,18 @@ const ProfileP = () => {
     }
 
     return (
-        <>
+        <DataProvider>
             <Sidebar isOpen={isOpen} toggle={toggle}/>
             {user ? (
                 <Navbar21 toggle={toggle}/>
             ) : (
                 <Navbar2 toggle={toggle}/>
-            )}
-            <Account />              
+            )}            
+            <Hero />
+            <Cart />
             <Footer />
-        </>
-    );
+        </DataProvider>
+    )
 }
 
-export default ProfileP;
+export default ShoppingCartP;

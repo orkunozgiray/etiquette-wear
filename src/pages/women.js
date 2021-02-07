@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
-import { WomenData } from '../components/Women/Data';
 import Navbar2 from '../components/Navbar2';
-import Women from '../components/Women';
 import Sidebar from '../components/Sidebar';
 import fire from '../fire';
 import Navbar21 from '../components/Navbar21';
+import WomenProducts from '../components/WomenProducts';
+import WomenProductsUser from '../components/WomenProductsUser';
+import DataProvider from '../components/MenProducts/DataProvider';
 
 const WomenP = () => {
 
@@ -36,7 +37,7 @@ const WomenP = () => {
     }
 
     return (
-        <>
+        <DataProvider>
             <Sidebar isOpen={isOpen} toggle={toggle}/>
             {user ? (
                 <Navbar21 toggle={toggle}/>
@@ -44,9 +45,13 @@ const WomenP = () => {
                 <Navbar2 toggle={toggle}/>
             )}              
             <Hero />
-            <Women {...WomenData} />
+            {user ? (
+                <WomenProducts toggle={toggle}/>
+            ) : (
+                <WomenProductsUser toggle={toggle}/>
+            )}
             <Footer />
-        </>
+        </DataProvider>
     );
 }
 

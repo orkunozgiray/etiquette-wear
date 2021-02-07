@@ -106,8 +106,6 @@ export const NavLinks = styled(LinkR)`
 
     &:hover {
         transition: all 0.4s ease-in-out;
-        font-size: 16px;
-        letter-spacing: 4px;
         color: #fff;
     }
 `;
@@ -122,26 +120,25 @@ export const NavBtn = styled.nav`
     }
 `;
 
-export const NavBtnLink = styled(LinkR)`
-    border-radius: 18px;
-    white-space: nowrap;
-    margin: 10px -70px 0 75px;
-    padding: 10px 10px;
-    color: #fff;
-    font-size: 11px;
-    outline: none;
-    border: 1.5px solid #ccd5f0;
-    cursor: pointer;
-    transition: all 0.4s ease-in-out;
-    text-decoration: none;
+// export const NavBtnLink = styled(LinkR)`
+//     border-radius: 18px;
+//     white-space: nowrap;
+//     margin: 10px -70px 0 75px;
+//     padding: 10px 10px;
+//     color: #fff;
+//     font-size: 11px;
+//     outline: none;
+//     border: 1.5px solid #ccd5f0;
+//     cursor: pointer;
+//     transition: all 0.4s ease-in-out;
+//     text-decoration: none;
 
-    &:hover {
-        transition: all 0.4s ease-in-out;
-        background: #d0e2f2;
-        color: #010606;
-        letter-spacing: 1.5px;
-    }
-`;
+//     &:hover {
+//         transition: all 0.4s ease-in-out;
+//         background: #d0e2f2;
+//         color: #010606;
+//     }
+// `;
 
 export const NavSearch = styled.div`
     color: #fff;
@@ -180,6 +177,5 @@ export const ButtonModal = styled.button`
         transition: all 0.4s ease-in-out;
         background: #d0e2f2;
         color: #010606;
-        letter-spacing: 1.5px;
     }
 `;

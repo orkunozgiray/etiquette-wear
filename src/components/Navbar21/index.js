@@ -1,7 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import { FaBars, FaSearch } from 'react-icons/fa';
+import { BsBagFill } from 'react-icons/bs';
 import { animateScroll as scroll } from 'react-scroll';
 import SignInModal from './SignInModal';
+import { DataContext } from '../MenProducts/DataProvider';
+
 import {
     Nav, 
     NavContainer, 
@@ -14,10 +17,14 @@ import {
     NavBtnLink,
     NavSearch,
     ButtonModal,
-    ModalContainer
+    ModalContainer,
+    MyBag
 } from './NavbarElements';
 
 const Navbar21 = ({ toggle }) => {
+
+    const value = useContext(DataContext);
+    const [cart] = value.cart;
 
     const [scrollNav, setScrollNav] = useState(false);
     const [showModal, setShowModal] = useState(false);
@@ -59,7 +66,7 @@ const Navbar21 = ({ toggle }) => {
                                 smooth='true'
                                 duration={1200} 
                                 exact='true' 
-                                spy={true}
+                                spy='true'
                                 offset={-80}
                             >
                                 WHAT'S NEW
@@ -71,7 +78,7 @@ const Navbar21 = ({ toggle }) => {
                                 smooth='true'
                                 duration={1200} 
                                 exact='true' 
-                                spy={true}
+                                spy='true'
                                 offset={-80}
                             >
                                 SALE
@@ -83,7 +90,7 @@ const Navbar21 = ({ toggle }) => {
                                 smooth='true'
                                 duration={1200} 
                                 exact='true'
-                                spy={true}
+                                spy='true'
                                 offset={-80}
                             >
                                 WOMEN
@@ -93,7 +100,7 @@ const Navbar21 = ({ toggle }) => {
                             <NavLinks
                                 to='/men'
                                 smooth='true'
-                                spy={true}
+                                spy='true'
                                 duration={1200} 
                                 exact='true' 
                                 offset={-80}
@@ -107,7 +114,7 @@ const Navbar21 = ({ toggle }) => {
                                 smooth='true'
                                 duration={1200} 
                                 exact='true'
-                                spy={true} 
+                                spy='true'
                                 offset={-80}
                             >
                                 MAGAZINE
@@ -131,13 +138,16 @@ const Navbar21 = ({ toggle }) => {
                         </ModalContainer>
 
                         <NavBtnLink
-                            to='/'
+                            to='/shoppingcart'
                             smooth='true'
                             duration={1200} 
                             exact='true' 
                             offset={-80}
                         >
-                            My Bag
+                            <span>{cart.length}</span>
+                            <MyBag>
+                                <BsBagFill />
+                            </MyBag>
                         </NavBtnLink>
                         <NavSearch>
                             <FaSearch />

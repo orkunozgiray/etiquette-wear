@@ -5,6 +5,7 @@ import Sale from '../components/Sale';
 import Sidebar from '../components/Sidebar';
 import fire from '../fire';
 import Navbar21 from '../components/Navbar21';
+import DataProvider from '../components/MenProducts/DataProvider';
 
 const SaleP = () => {
 
@@ -34,7 +35,7 @@ const SaleP = () => {
     }
 
     return (
-        <>
+        <DataProvider>
             <Sidebar isOpen={isOpen} toggle={toggle}/>
             {user ? (
                 <Navbar21 toggle={toggle}/>
@@ -43,7 +44,7 @@ const SaleP = () => {
             )}              
             <Sale />
             <Footer />
-        </>
+        </DataProvider>
     );
 }
 

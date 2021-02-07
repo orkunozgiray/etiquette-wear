@@ -7,7 +7,6 @@ import {
     ModalContent,
     CloseModalButton,
     SignInBtn,
-    SignUpBtn,
     ModalP
 } from './SignInModalElements';
 

@@ -11,7 +11,6 @@ import {
     NavItem,
     NavLinks,
     NavBtn,
-    NavBtnLink,
     NavSearch,
     ButtonModal,
     ModalContainer
@@ -59,7 +58,7 @@ const Navbar2 = ({ toggle }) => {
                                 smooth='true'
                                 duration={1200} 
                                 exact='true' 
-                                spy={true}
+                                spy='true'
                                 offset={-80}
                             >
                                 WHAT'S NEW
@@ -71,7 +70,7 @@ const Navbar2 = ({ toggle }) => {
                                 smooth='true'
                                 duration={1200} 
                                 exact='true' 
-                                spy={true}
+                                spy='true'
                                 offset={-80}
                             >
                                 SALE
@@ -83,7 +82,7 @@ const Navbar2 = ({ toggle }) => {
                                 smooth='true'
                                 duration={1200} 
                                 exact='true'
-                                spy={true}
+                                spy='true'
                                 offset={-80}
                             >
                                 WOMEN
@@ -93,7 +92,7 @@ const Navbar2 = ({ toggle }) => {
                             <NavLinks
                                 to='/men'
                                 smooth='true'
-                                spy={true}
+                                spy='true'
                                 duration={1200} 
                                 exact='true' 
                                 offset={-80}
@@ -107,7 +106,7 @@ const Navbar2 = ({ toggle }) => {
                                 smooth='true'
                                 duration={1200} 
                                 exact='true'
-                                spy={true} 
+                                spy='true' 
                                 offset={-80}
                             >
                                 MAGAZINE
@@ -130,15 +129,6 @@ const Navbar2 = ({ toggle }) => {
                             {/* <GlobalStyle /> */}
                         </ModalContainer>
 
-                        <NavBtnLink
-                            to='/'
-                            smooth='true'
-                            duration={1200} 
-                            exact='true' 
-                            offset={-80}
-                        >
-                            My Bag
-                        </NavBtnLink>
                         <NavSearch>
                             <FaSearch />
                         </NavSearch>

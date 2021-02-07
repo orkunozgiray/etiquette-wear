@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+}
+
+ .App {
+    max-width: 1230px;
+    width: 100%;
+    margin: auto;
+    box-shadow: 0 2px 6px #555;
+    padding: 0 15px;
+}
+
+/*Products*/
+
+.card .box button {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin: 10px 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/*Details*/
+
+.box-details button {
+    border: 1px solid #555;
+    outline: none;
+    background: #333;
+    cursor: pointer;
+    color: white;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.colors button,
+.sizes button {
+    width: 35px;
+    height: 35px;
+}
+
+.box-details .cart {
+    width: 200px;
+    height: 35px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+@media (max-width: 500px) {
+    .details{
+        padding: 0;
+    }
+    .box-details .thumb img {
+        width: 40px;
+    }
+    .details .img-container {
+        height: 350px;
+    }
+}

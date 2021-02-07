@@ -1,13 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
-import { MenData } from '../components/Men/Data';
-import Men from '../components/Men/Index';
+import MenProducts from '../components/MenProducts';
+import Details from '../components/MenProducts/Details';
+import DetailsUser from '../components/MenProductsUser/DetailsUser';
 import Navbar2 from '../components/Navbar2';
 import Navbar21 from '../components/Navbar21';
 import Sidebar from '../components/Sidebar';
 import fire from '../fire';
-
+import DataProvider from '../components/MenProducts/DataProvider';
+import MenProductsUser from '../components/MenProductsUser';
 
 const MenP = () => {
 
@@ -36,7 +38,7 @@ const MenP = () => {
     }
 
     return (
-        <>
+        <DataProvider>
             <Sidebar isOpen={isOpen} toggle={toggle}/>
             {user ? (
                 <Navbar21 toggle={toggle}/>
@@ -44,9 +46,18 @@ const MenP = () => {
                 <Navbar2 toggle={toggle}/>
             )}            
             <Hero />
-            <Men {...MenData}/>
+            {user ? (
+                <Details toggle={toggle}/>
+            ) : (
+                <DetailsUser toggle={toggle}/>
+            )}
+            {user ? (
+                <MenProducts toggle={toggle}/>
+            ) : (
+                <MenProductsUser toggle={toggle}/>
+            )}                
             <Footer />
-        </>
+        </DataProvider>
     );
 }
 

@@ -6,6 +6,7 @@ import SignIn from '../components/SignIn';
 import Logout from '../components/Logout'
 import Sidebar from '../components/Sidebar';
 import fire from '../fire';
+import DataProvider from '../components/MenProducts/DataProvider';
 
 const LoginP = () => {
 
@@ -41,7 +42,8 @@ const LoginP = () => {
                         break;
                     case "auth/wrong-password":
                         setPasswordError(err.message);
-                        break;    
+                        break;
+                    default :      
                 }
             });
     };
@@ -59,7 +61,9 @@ const LoginP = () => {
                         break;
                     case "auth/weak-password":
                         setPasswordError(err.message);
-                        break;    
+                        break; 
+                    default:
+                        console.log(`Please Sign in`);       
                 }
             });
     };
@@ -81,7 +85,7 @@ const LoginP = () => {
 
     useEffect(() => {
         authListener();
-    }, []);
+    }, );
     //Firebase E-Mail Login Auth
 
     //Firebase Google Auth
@@ -95,7 +99,7 @@ const LoginP = () => {
     }
 
     return (
-        <>
+        <DataProvider>
             <Sidebar isOpen={isOpen} toggle={toggle}/>
             {user ? (
                 <Navbar21 toggle={toggle}/>
@@ -120,7 +124,7 @@ const LoginP = () => {
                 />
             )}    
             <Footer />
-        </>
+        </DataProvider>
     );
 };
 

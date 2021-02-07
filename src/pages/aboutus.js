@@ -5,6 +5,7 @@ import Navbar2 from '../components/Navbar2';
 import Sidebar from '../components/Sidebar';
 import fire from '../fire';
 import Navbar21 from '../components/Navbar21';
+import DataProvider from '../components/MenProducts/DataProvider';
 
 const AboutUsP = () => {
 
@@ -34,7 +35,7 @@ const AboutUsP = () => {
     }
 
     return (
-        <>
+        <DataProvider>
             <Sidebar isOpen={isOpen} toggle={toggle}/>
             {user ? (
                 <Navbar21 toggle={toggle}/>
@@ -43,7 +44,7 @@ const AboutUsP = () => {
             )}              
             <AboutUs />
             <Footer />            
-        </>
+        </DataProvider>
     );
 }
 

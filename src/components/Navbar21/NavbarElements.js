@@ -183,3 +183,7 @@ export const ButtonModal = styled.button`
         letter-spacing: 1.5px;
     }
 `;
+
+export const MyBag = styled.div`
+
+`;

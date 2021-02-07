@@ -18,6 +18,7 @@ import './Slider2.css';
 import Announcement from '../components/Announcement';
 import fire from '../fire';
 import Navbar12 from '../components/Navbar12';
+import DataProvider from '../components/MenProducts/DataProvider';
 
 const HomeP = () => {
 
@@ -47,7 +48,7 @@ const HomeP = () => {
     }
 
     return (
-        <>
+        <DataProvider>
             <Sidebar isOpen={isOpen} toggle={toggle}/>
             {user ? (
                     <Navbar12 toggle={toggle}/>
@@ -61,7 +62,7 @@ const HomeP = () => {
             <Info {...InfoTwo} />
             <Magazine {...MagazineData} />
             <Footer />
-        </>
+        </DataProvider>
     );
 }
 

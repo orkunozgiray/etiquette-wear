@@ -11,7 +11,6 @@ import {
     NavItem,
     NavLinks,
     NavBtn,
-    NavBtnLink,
     NavSearch,
     ButtonModal,
     ModalContainer
@@ -130,15 +129,6 @@ const Navbar = ({ toggle }) => {
                             {/* <GlobalStyle /> */}
                         </ModalContainer>
 
-                        <NavBtnLink
-                            to='/'
-                            smooth='true'
-                            duration={1200} 
-                            exact='true' 
-                            offset={-80}
-                        >
-                            My Bag
-                        </NavBtnLink>
                         <NavSearch>
                             <FaSearch />
                         </NavSearch>
