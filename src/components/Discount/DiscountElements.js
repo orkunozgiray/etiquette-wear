@@ -13,7 +13,7 @@ export const DiscountContainer = styled.div`
 export const DiscountWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 400px;
+    height: 450px;
     width: 100%;
     max-width: 1100px;
     margin-right: auto;

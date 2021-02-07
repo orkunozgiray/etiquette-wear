@@ -21,7 +21,7 @@ import {
     MyBag
 } from './NavbarElements';
 
-const Navbar21 = ({ toggle }) => {
+const Navbar21 = ({ toggle, handleLogout }) => {
 
     const value = useContext(DataContext);
     const [cart] = value.cart;
@@ -148,6 +148,15 @@ const Navbar21 = ({ toggle }) => {
                             <MyBag>
                                 <BsBagFill />
                             </MyBag>
+                        </NavBtnLink>
+                        <NavBtnLink
+                            onClick={handleLogout}
+                            smooth='true'
+                            duration={1200} 
+                            exact='true' 
+                            offset={-80}
+                        >
+                            SignOut
                         </NavBtnLink>
                         <NavSearch>
                             <FaSearch />

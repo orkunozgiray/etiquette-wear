@@ -20,7 +20,7 @@ import {
     MyBag
 } from './NavbarElements';
 
-const Navbar12 = ({ toggle }) => {
+const Navbar12 = ({ toggle, handleLogout }) => {
 
     const value = useContext(DataContext);
     const [cart] = value.cart;
@@ -123,8 +123,7 @@ const Navbar12 = ({ toggle }) => {
                     <NavBtn>
                         <ModalContainer>
                             <ButtonModal
-                                onClick={openModal}
-                                to='/'
+                                to='/account'
                                 smooth='true'
                                 duration={1200} 
                                 exact='true' 
@@ -132,7 +131,6 @@ const Navbar12 = ({ toggle }) => {
                             >
                                 My Profile
                             </ButtonModal>
-                            <SignInModal showModal={showModal} setShowModal={setShowModal} />
                             {/* <GlobalStyle /> */}
                         </ModalContainer>
                         
@@ -147,6 +145,15 @@ const Navbar12 = ({ toggle }) => {
                             <MyBag>
                                 <BsBagFill />
                             </MyBag>
+                        </NavBtnLink>
+                        <NavBtnLink
+                            onClick={handleLogout}
+                            smooth='true'
+                            duration={1200} 
+                            exact='true' 
+                            offset={-80}
+                        >
+                            SignOut
                         </NavBtnLink>
                         <NavSearch>
                             <FaSearch />

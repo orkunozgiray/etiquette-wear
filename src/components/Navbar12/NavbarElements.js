@@ -163,7 +163,7 @@ export const ModalContainer = styled.div`
   height: 100vh;
 `;
 
-export const ButtonModal = styled.button`
+export const ButtonModal = styled(LinkR)`
     background: transparent;
     border-radius: 18px;
     white-space: nowrap;

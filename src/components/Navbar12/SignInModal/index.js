@@ -10,7 +10,7 @@ import {
     ModalP
 } from './SignInModalElements';
 
-export const SignInModal = ({ showModal, setShowModal }) => {
+export const SignInModal = ({ showModal, setShowModal, }) => {
     const modalRef = useRef();
   
     const animation = useSpring({

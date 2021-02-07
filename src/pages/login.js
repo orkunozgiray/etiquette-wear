@@ -106,7 +106,6 @@ const LoginP = () => {
             ) : (
                 <Navbar2 toggle={toggle}/>
             )}
-            
             {user ? (
                 <Logout handleLogout={handleLogout} /> 
             ) : (
