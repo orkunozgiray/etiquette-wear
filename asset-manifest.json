@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/etiquette-wear/static/css/main.a4727d30.chunk.css",
-    "main.js": "/etiquette-wear/static/js/main.c2a1e103.chunk.js",
-    "main.js.map": "/etiquette-wear/static/js/main.c2a1e103.chunk.js.map",
-    "runtime-main.js": "/etiquette-wear/static/js/runtime-main.172b21ab.js",
-    "runtime-main.js.map": "/etiquette-wear/static/js/runtime-main.172b21ab.js.map",
+    "main.css": "/etiquette-wear/static/css/main.6728576e.chunk.css",
+    "main.js": "/etiquette-wear/static/js/main.5fde0805.chunk.js",
+    "main.js.map": "/etiquette-wear/static/js/main.5fde0805.chunk.js.map",
+    "runtime-main.js": "/etiquette-wear/static/js/runtime-main.19f59e71.js",
+    "runtime-main.js.map": "/etiquette-wear/static/js/runtime-main.19f59e71.js.map",
     "static/js/2.0fc985a9.chunk.js": "/etiquette-wear/static/js/2.0fc985a9.chunk.js",
     "static/js/2.0fc985a9.chunk.js.map": "/etiquette-wear/static/js/2.0fc985a9.chunk.js.map",
-    "static/js/3.15ad761b.chunk.js": "/etiquette-wear/static/js/3.15ad761b.chunk.js",
-    "static/js/3.15ad761b.chunk.js.map": "/etiquette-wear/static/js/3.15ad761b.chunk.js.map",
+    "static/js/3.f5e09042.chunk.js": "/etiquette-wear/static/js/3.f5e09042.chunk.js",
+    "static/js/3.f5e09042.chunk.js.map": "/etiquette-wear/static/js/3.f5e09042.chunk.js.map",
     "index.html": "/etiquette-wear/index.html",
-    "static/css/main.a4727d30.chunk.css.map": "/etiquette-wear/static/css/main.a4727d30.chunk.css.map",
+    "static/css/main.6728576e.chunk.css.map": "/etiquette-wear/static/css/main.6728576e.chunk.css.map",
     "static/js/2.0fc985a9.chunk.js.LICENSE.txt": "/etiquette-wear/static/js/2.0fc985a9.chunk.js.LICENSE.txt",
     "static/media/discount.jpg": "/etiquette-wear/static/media/discount.378b888b.jpg",
     "static/media/discount1.jpg": "/etiquette-wear/static/media/discount1.aeb408ec.jpg",
@@ -27,9 +27,9 @@
     "static/media/main.eb9e7665.mp4": "/etiquette-wear/static/media/main.eb9e7665.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.172b21ab.js",
+    "static/js/runtime-main.19f59e71.js",
     "static/js/2.0fc985a9.chunk.js",
-    "static/css/main.a4727d30.chunk.css",
-    "static/js/main.c2a1e103.chunk.js"
+    "static/css/main.6728576e.chunk.css",
+    "static/js/main.5fde0805.chunk.js"
   ]
 }
