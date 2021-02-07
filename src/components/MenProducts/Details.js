@@ -47,7 +47,7 @@ const Details = () => {
                                 <p>{product.descrption}</p>
                                 <p>{product.content}</p>
                                 <DetailsThumb images={product.images} setIndex={setIndex}/>   
-                                <Link to='/shoppingcart' className="cart" onClick={() => addCart(product._id)}>
+                                <Link onClick={() => addCart(product._id)}>
                                     Add to cart
                                 </Link>
                             </div>
