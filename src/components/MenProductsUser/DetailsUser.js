@@ -1,7 +1,7 @@
 import React, {useContext, useState, useRef} from 'react';
 import {useParams} from 'react-router-dom';
 import {DataContext} from '../MenProducts/DataProvider';
-import Colors from './Colors';
+// import Colors from './Colors';
 import Sizes from './Sizes';
 import DetailsThumb from './DetailsThumb';
 import {Link} from 'react-router-dom';
@@ -41,7 +41,7 @@ const DetailsUser = () => {
                             <div className="box-details">
                                 <h2 title={product.title}>{product.title}</h2>
                                 <h3>${product.price}</h3>
-                                <Colors colors={product.colors} />
+                                {/* <Colors colors={product.colors} /> */}
                                 <Sizes sizes={product.sizes} />
                                 <p>{product.descrption}</p>
                                 <p>{product.content}</p>
