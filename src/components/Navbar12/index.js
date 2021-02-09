@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { FaBars, FaSearch } from 'react-icons/fa';
 import { animateScroll as scroll } from 'react-scroll';
-import SignInModal from './SignInModal';
 import { DataContext } from '../MenProducts/DataProvider';
 import { BsBagFill } from 'react-icons/bs';
 import {
@@ -14,6 +13,7 @@ import {
     NavLinks,
     NavBtn,
     NavBtnLink,
+    NavBtnLogout,
     NavSearch,
     ButtonModal,
     ModalContainer,
@@ -26,7 +26,7 @@ const Navbar12 = ({ toggle, handleLogout }) => {
     const [cart] = value.cart;
 
     const [scrollNav, setScrollNav] = useState(false);
-    const [showModal, setShowModal] = useState(false);
+    // const [setShowModal] = useState(false);
 
 
     const changeNav = () => {
@@ -46,9 +46,9 @@ const Navbar12 = ({ toggle, handleLogout }) => {
     };
 
 
-    const openModal = () => {
-        setShowModal(prev => !prev);
-    };
+    // const openModal = () => {
+    //     setShowModal(prev => !prev);
+    // };
 
     return (
         <>
@@ -135,7 +135,7 @@ const Navbar12 = ({ toggle, handleLogout }) => {
                         </ModalContainer>
                         
                         <NavBtnLink
-                            to='/shoppingcart'
+                            to='shoppingcart'
                             smooth='true'
                             duration={1200} 
                             exact='true' 
@@ -146,7 +146,7 @@ const Navbar12 = ({ toggle, handleLogout }) => {
                                 <BsBagFill />
                             </MyBag>
                         </NavBtnLink>
-                        <NavBtnLink
+                        <NavBtnLogout
                             onClick={handleLogout}
                             smooth='true'
                             duration={1200} 
@@ -154,7 +154,7 @@ const Navbar12 = ({ toggle, handleLogout }) => {
                             offset={-80}
                         >
                             SignOut
-                        </NavBtnLink>
+                        </NavBtnLogout>
                         <NavSearch>
                             <FaSearch />
                         </NavSearch>

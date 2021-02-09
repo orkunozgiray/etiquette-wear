@@ -28,7 +28,7 @@ const HomeP = () => {
     const [password, setPassword] = useState("");
     const [emailError, setEmailError] = useState("");
     const [passwordError, setPasswordError] = useState("");
-    const [hasAccount, setHasAccount] = useState(false);
+    // const [hasAccount, setHasAccount] = useState(false);
 
     const clearInputs = () => {
         setEmail('');

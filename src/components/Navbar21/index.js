@@ -15,6 +15,7 @@ import {
     NavLinks,
     NavBtn,
     NavBtnLink,
+    NavBtnLogout,
     NavSearch,
     ButtonModal,
     ModalContainer,
@@ -149,7 +150,7 @@ const Navbar21 = ({ toggle, handleLogout }) => {
                                 <BsBagFill />
                             </MyBag>
                         </NavBtnLink>
-                        <NavBtnLink
+                        <NavBtnLogout
                             onClick={handleLogout}
                             smooth='true'
                             duration={1200} 
@@ -157,7 +158,7 @@ const Navbar21 = ({ toggle, handleLogout }) => {
                             offset={-80}
                         >
                             SignOut
-                        </NavBtnLink>
+                        </NavBtnLogout>
                         <NavSearch>
                             <FaSearch />
                         </NavSearch>

@@ -143,6 +143,26 @@ export const NavBtnLink = styled(LinkR)`
         letter-spacing: 1.5px;
     }
 `;
+export const NavBtnLogout = styled.nav`
+    border-radius: 18px;
+    white-space: nowrap;
+    margin: 10px -70px 0 75px;
+    padding: 10px 10px;
+    color: #fff;
+    font-size: 11px;
+    outline: none;
+    border: 1.5px solid #ccd5f0;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    text-decoration: none;
+
+    &:hover {
+        transition: all 0.4s ease-in-out;
+        background: #d0e2f2;
+        color: #010606;
+        letter-spacing: 1.5px;
+    }
+`;
 
 export const NavSearch = styled.div`
     color: #fff;
